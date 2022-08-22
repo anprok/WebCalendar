@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: <code>class resourceSchema(Schema):<br>    name = fields.String()<br>    value
+    = fields.Integer()<br>     ms_wait = fields.Integer()</code>
+- text: ' <code>class resourceSchema(Schema):<br>    name = fields.Str<br>    value
+    = Int<br>     ms_wait = fields.Int</code>'
+- text: <code>class resourceSchema():<br>    name = fields.String()<br>    value =
+    fields.String()<br>     ms_wait = fields.Integer()</code>
+- text: <code>class resourceSchema(Schema):<br>    name = fields.Str()<br>    value
+    = Int()<br>     ms_wait = fields.Int()</code>
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/18210#comment
+status: Solved
+record: -1
+local_check: false

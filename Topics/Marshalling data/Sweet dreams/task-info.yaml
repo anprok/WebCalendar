@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: A module that gives us the ability to configure a global data processing scheme
+- text: An object that allows API to access the parameters and convert them to the
+    desired data type
+- text: A Flask in-built addition that gives us a more capabilities for marshaling
+- text: An independent module that gives us a complete set of tools for marshaling
+    data
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/18207#comment
+status: Solved
+record: -1
+local_check: false
